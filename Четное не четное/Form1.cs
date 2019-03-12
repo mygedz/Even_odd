@@ -10,12 +10,10 @@ namespace Четное_не_четное
         {
             InitializeComponent();
         }
-
         private void Clear_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
         }
-
         private void verify_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "")
@@ -38,7 +36,7 @@ namespace Четное_не_четное
         }
 
         private void textBox1_Enter(object sender, EventArgs e)
-        {            
+        {
             label1.Visible = false;
             textBox1.BackColor = Color.White;
         }
